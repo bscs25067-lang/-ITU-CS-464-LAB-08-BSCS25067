@@ -5,6 +5,7 @@ public class SceneNavButton : MonoBehaviour
 {
     [Tooltip("To exit game: \"EXIT\" \nTo do nothing: \"NOTHING\"")]
     [SerializeField] private string targetSceneName = "02_MainMenu";
+    [SerializeField] private bool showLoadingBar = true;
 
     public void Navigate()
     {
@@ -18,6 +19,6 @@ public class SceneNavButton : MonoBehaviour
             return;
         }
 
-        SceneTransition.TransitionTo(targetSceneName);
+        SceneTransition.TransitionTo(targetSceneName, showLoadingBar);
     }
 }
