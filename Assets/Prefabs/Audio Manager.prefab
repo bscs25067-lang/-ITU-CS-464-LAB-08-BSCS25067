@@ -576,6 +576,6 @@ MonoBehaviour:
   uiPauseClip: {fileID: 8300000, guid: 038be43f602b77a4f918d6998fa3d3ad, type: 3}
   uiSuccessClip: {fileID: 8300000, guid: 49472442a80f7f64b87e2e2118b26917, type: 3}
   uiErrorClip: {fileID: 8300000, guid: c2b1973a3e91ea549b117b1073e0aa58, type: 3}
-  menuMusic: {fileID: 0}
-  gameplayMusic: {fileID: 0}
-  resultsMusic: {fileID: 0}
+  menuMusic: {fileID: 8300000, guid: 2b91c8046b52a1b44bf20d58519998a3, type: 3}
+  gameplayMusic: {fileID: 8300000, guid: b3b24c6f44e769a4abf8c6fec44869fb, type: 3}
+  resultsMusic: {fileID: 8300000, guid: 2b91c8046b52a1b44bf20d58519998a3, type: 3}
