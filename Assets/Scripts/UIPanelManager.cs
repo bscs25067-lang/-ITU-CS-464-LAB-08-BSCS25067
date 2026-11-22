@@ -130,6 +130,7 @@ public class UIPanelSwitcher : MonoBehaviour
         currentActivePanel.SetActive(true);
 
         UITweenEffects inTween = currentActivePanel.GetComponent<UITweenEffects>();
+        AudioManager.Instance?.PlayPanelOpen();
         if (inTween != null)
         {
             inTween.FadeIn();

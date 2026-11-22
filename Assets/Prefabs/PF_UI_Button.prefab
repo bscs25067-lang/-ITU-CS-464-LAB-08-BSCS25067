@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9152236325490559952}
   - component: {fileID: 1637975908080182252}
   - component: {fileID: 8475903241579234653}
+  - component: {fileID: 4957575462289925181}
   m_Layer: 5
   m_Name: PF_UI_Button
   m_TagString: Untagged
@@ -186,6 +187,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneNavButton
   targetSceneName: NOTHING
+--- !u!114 &4957575462289925181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686485448014342517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def01a02b1d924644a28b6d649b6ac36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  soundType: 0
 --- !u!1 &1301992950990407209
 GameObject:
   m_ObjectHideFlags: 0
